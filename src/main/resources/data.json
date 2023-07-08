@@ -1,0 +1,18 @@
+{
+	"js snippets": {
+		"force logout": "document.getElementById('logout-form').submit();",
+		"scroll element to top":"arguments[0].scrollIntoView(true);window.scrollBy(0,-400);",
+		"scroll element to bottom":"arguments[0].scrollIntoView(false);window.scrollBy(0,400);",
+		"scroll to coordinates":"window.scrollBy(arguments[0],arguments[1]);",
+		"scroll to bottom within element":"arguments[0].scrollTop=arguments[0].scrollHeight;",
+		"is page ready":"return (document.readyState === 'complete');",
+		"click element":"arguments[0].dispatchEvent(new Event('click'));",
+		"touch element":"arguments[0].dispatchEvent(new Event('touchstart'));arguments[0].dispatchEvent(new Event('touchend'));",
+		"touch element single event":"arguments[0].dispatchEvent(new Event('touchend'));",
+		"check image":"return arguments[0].complete && arguments[0].naturalWidth != undefined && arguments[0].naturalWidth > 0",
+		"check if within viewport":"return (function(el){var rect = el.getBoundingClientRect(); return ( rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth) );})(arguments[0]);",
+		"get display style":"return arguments[0].style.display;",
+		"set display style":"arguments[0].style.display=\"%s\";",
+		"clear ckeditor":"ng.getComponent(arguments[0])._value.next('');"
+	}
+}

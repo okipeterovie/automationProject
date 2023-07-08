@@ -1,0 +1,8 @@
+{
+	"chrome":{
+		"browserName": "Chrome",
+		"pc":true,
+		"display":"1004",
+		"resize":true
+    }
+}

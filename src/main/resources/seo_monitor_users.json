@@ -1,0 +1,13 @@
+{
+  "users": {
+    "ogheneovie": {
+      "environment": "dev",
+      "email": "ogheneovie.oki-peter@eng.uniben.edu",
+      "password": "Abcd123*",
+      "features": [
+        "user"
+      ],
+      "isAdmin": "false"
+    }
+  }
+}
